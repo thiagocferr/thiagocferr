@@ -1,13 +1,4 @@
 
-<style>
-  #header #top-greeting br {
-    display: block;
-    content: '';
-    margin-top: 0.6em
-  }
-</style>
-
-
 <div id="header" align="center">
   <img src="imgs/vibing-cropped.gif" width="260">
   <h1 id="top-greeting">
