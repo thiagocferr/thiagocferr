@@ -1,8 +1,19 @@
+
+<style>
+  #header #top-greeting br {
+    display: block;
+    content: '';
+    margin-top: 0.6em
+  }
+</style>
+
+
 <div id="header" align="center">
   <img src="imgs/vibing-cropped.gif" width="260">
-  <h1>
-    Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-    <br style="display: block; content: ''; margin-top: 0.7em"/>
+  <h1 id="top-greeting">
+    Hi there
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+    <br>
     <div id="badges">
       <a href="https://www.linkedin.com/in/thiagocferr/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
